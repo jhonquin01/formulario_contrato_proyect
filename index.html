@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta name="viemport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="home.css">
+<link rel="stylesheet" href="tabla.css">
+<title>CONTRATO COMULCLAVER</title>
+</head>
+
+<body class="home-container">
+
+    <header class="header">
+<img src="../comulclaver/imagenes/log.png" alt="Logo" width="1080px" height="150px">
+
+    </header>
+   <!-- <nav class="navbar">NAVBAR</nav>
+    <aside class="sidebar">SIDEBAR</aside>-->
+    <article class="main">
+        <table class="cont" border="1px" style="margin: 0 auto;">
+
+        <tr>
+            <td>
+        <strong><h1>CONTRATO RUTA ESCOLAR</h1></strong>
+        <br>
+        </td>
+        </tr>
+        <tr>
+        <td>
+        <form name="form" action="tabla.php" method="post">
+            <label for="idInstitucion">Institucion Educativa</label>
+            <select name="idInstitucion" id="idInstitucion">
+                <option value=""></option>
+                <option value="1">Gimnasio Pedagogico Comfenalco</option>
+            </select>
+            <p></p>
+        </td>
+        </tr>
+        <tr>
+        <th class="fila">
+            TADOS DEL CONTRATANTE
+        </th>
+        <tr>
+            <td>
+            <label for="nomCliente">Nombre y Apellido</label>
+            <input type="text" name="nomCliente" placeholder=""/>
+            <p></p>
+            <label for="idCliente">Número de Documento</label>
+            <input type="text" name="idCliente" placeholder="" />
+            <p></p>
+            <label for="idCiudad">Ciudad</label>
+            <select name="idCiudad" id="idCiudad">
+                <option value=""></option>
+                <option value="1">Bucaramanga</option>
+                <option value="2">Floridablanca</option>
+                <option value="3">Giron</option>
+                <option value="4">Piedecuesta</option>
+            </select>
+            <p></p>
+            <label for="barrioCliente">Barrio</label>
+            <input type="text" name="barrioCliente" placeholder="" />
+            <p></p>
+            <label for="dirCliente">Direccion Cliente</label>
+            <input type="text" name="dirCliente" placeholder="" />
+            <p></p>
+            <label for="correoCliente">Correo</label>
+            <input type="email" name="correoCliente" placeholder="" />
+            <p></p>
+            <label for="telCliente">Telefono</label>
+            <input type="text" name="telCliente" placeholder=""/>
+            <p></p>
+            <label for="celCliente">Número Celular</label>
+            <input type="text" name="celCliente" placeholder="" />
+            <p></p>
+        </td>
+        </tr>
+        <tr>
+            <th>
+                TADOS DEL BENEFICIARIO
+            </th>
+        </tr>
+        <tr>
+            <td>
+            <label for="nomBeneficiario">Nombre Beneficiario</label>
+            <input type="text" name="nomBeneficiario" placeholder="" />
+            <p></p>
+            <label for="tpDocumentoBen">Tipo de Documento</label>
+            <select name="tpDocumentoBen" id="tpDocumentoBen" >
+                <option value=""></option>
+                <option value="1">R.C</option>
+                <option value="2">T.I</option>
+                <option value="3">P.E.P</option>
+            </select>
+            <p></p>
+            <label for="numDocumentoBen">Número de Documento</label>
+            <input type="text" name="numDocumentoBen" placeholder="" />
+            <p></p>
+            <label for="codEstudiante">Código Estudiante</label>
+            <input type="text" name="codEstudiante" placeholder=""/>
+            <p></p>
+            <label for="gradoEstudiante">Grado del Estudiante</label>
+            <input type="text" name="gradoEstudiante" placeholder="" />
+            <p></p>
+        </td>
+    </tr>
+    <tr>
+            <th>
+               TIPO DE SERVICIO
+            </th>
+        </tr>
+        <tr>
+            <td>
+            <label for="idServicio">Tipo Servicio</label>
+            <select name="idServicio" id="idServicio" >
+                <option value=""></option>
+                <option value="1">Completo</option>
+                <option value="2">medio</option>
+            </select>
+            <p></p>
+            <label for="dirRecogida">Direccion de Recogida</label>
+            <input type="text" name="dirRecogida" placeholder="" />
+            <p></p>
+            <label for="dirEntrega">Direccion de Entrega</label>
+            <input type="text" name="dirEntrega" placeholder="" />
+            <p></p>
+        </td>
+        </tr>
+        <tr>
+            <th>
+                TRATAMIENTO DE DATOS
+            </th>
+    </tr>
+    <tr>
+        <td>
+            <label for="autorizo">Autorizo tratamiento de datos</label>
+            <select name="autorizo" id="autorizo">
+                <option value=""></option>
+                <option value="si">Si</option>
+                <option value="no">No</option>
+            </select>
+            <p></p>
+            <input type="submit" value="Guardar y Descargar"/>
+            
+        </form>
+    </td>
+    </tr>
+</table>
+
+
+    </article>
+    <footer class="footer">FOOTER</footer>
+
+   <!-- <strong><h1>COMULCLAVER</h1></strong>
+<br/>
+<a href="contrato.html"><h3>CONTRATO</h3></a>
+<p></p>
+<h3>LOGIN</h3>-->
+</body>
+
+
+</html>
