@@ -1,0 +1,21 @@
+pipeline{
+    agent any
+    stages{
+        stage ('Build'){
+            step{
+                echo "esrapa Build no dispobible"
+            }
+        }
+        stage ('Tests'){
+            step{
+                echo "Etapa TEST no disponible"
+            }
+        }
+        stage ('Deploy'){
+            step{
+                sh "docker-compose down -v"
+                sh "docker-compose up -d --build"
+            }
+        }
+    }
+}
